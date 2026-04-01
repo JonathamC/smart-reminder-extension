@@ -18,7 +18,9 @@ A Chrome extension for scheduled and recurring reminders with missed alert handl
 
 ## 📸 Screenshots
 
-(Add screenshots in a `/screenshots` folder)
+![Smart Reminder Screenshot]([https://raw.githubusercontent.com/username/repo/main/Screenshot%202026-04-01%20170632.png)
+
+README.md
 
 - Popup UI  
 - Reminder popup  
