@@ -18,7 +18,7 @@ A Chrome extension for scheduled and recurring reminders with missed alert handl
 
 ## 📸 Screenshots
 
-![Smart Reminder Screenshot]([https://raw.githubusercontent.com/username/repo/main/Screenshot%202026-04-01%20170632.png)
+![Smart Reminder Screenshot](https://raw.githubusercontent.com/JonathamC/smart-reminder-extension/refs/heads/main/Screenshot%202026-04-01%20170632.png)
 
 README.md
 
