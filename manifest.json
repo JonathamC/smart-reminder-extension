@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Reminder",
+  "version": "1.0",
+  "description": "Browser reminder extension with active/passed list.",
+  "permissions": ["storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

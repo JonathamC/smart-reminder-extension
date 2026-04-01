@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reminder</title>
+    <link rel="stylesheet" href="popup.css"> <!-- reuse popup styles -->
+    <style>
+        /* Container styling */
+        .container {
+            width: 90%;
+            max-width: 480px;
+            padding: 20px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Title styling */
+        h2 {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Reminder list */
+        #reminderList {
+            text-align: left;
+            max-height: 450px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+
+        .reminder-item {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Button styling */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Reminder </h2>
+        <div id="reminderList"></div>
+        <button id="doneButton">Mark All Done </button>
+    </div>
+
+    <script src="reminder.js"></script>
+</body>
+</html>

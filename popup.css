@@ -1,0 +1,106 @@
+/* Container */
+.container {
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Inputs and select */
+input, select {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+/* Set Reminder button green */
+#setReminder {
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+}
+
+/* Active / Passed buttons side by side */
+.tab-buttons {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#activeTab {
+    flex: 1;
+    margin: 0 2px;
+    background-color: #a6c8ff; /* light blue */
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+#passedTab {
+    flex: 1;
+    margin: 0 2px;
+    background-color: #ffd59e; /* light orange */
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+/* Darker color for selected tab */
+#activeTab.active {
+    background-color: #1769aa; /* darker blue */
+}
+
+#passedTab.active {
+    background-color: #e67c00; /* darker orange */
+}
+
+/* Reminder list items */
+.reminder-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.reminder-text {
+    flex: 1 1 70%;
+    text-align: left;
+    word-wrap: break-word;
+    margin-right: 10px;
+}
+
+.reminder-buttons {
+    display: flex;
+    flex: 1 1 30%;
+    justify-content: flex-end;
+}
+
+.reminder-buttons button {
+    font-size: 12px;
+    padding: 5px 8px;
+    margin-left: 5px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}

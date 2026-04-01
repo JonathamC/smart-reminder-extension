@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Set Reminder</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Set Reminder </h2>
+
+        <input type="text" id="message" placeholder="Reminder message" tabindex="1">
+        <input type="date" id="date" tabindex="2">
+        <input type="time" id="time" tabindex="3">
+        <select id="repeat" tabindex="4">
+            <option value="">No Repeat</option>
+            <option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+        </select>
+
+        <button id="setReminder" tabindex="5">Set Reminder </button>
+
+        <div class="tab-buttons">
+            <button id="activeTab" class="active">Active Reminders</button>
+            <button id="passedTab">Past Reminders</button>
+        </div>
+
+        <div id="activeReminders" style="margin-top: 10px;"></div>
+        <div id="passedReminders" style="margin-top: 10px; display: none;"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
